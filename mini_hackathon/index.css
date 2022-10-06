@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game {
+    min-height: 100vh;
+    padding: 20px;
+}
+.container{
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.title_h1{
+    height: 70px;
+}
+.title_game{
+    text-align: center;
+}
+.messg{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px;
+    width: 100%;
+}
+.messg span{
+     color: green;
+}
+.start{
+    font-size: 15px;
+    text-align: center;
+    background-color: #4C9BC8;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: #88adc2;
+}
+.start_div{
+    text-align: center;
+}
+.words{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    user-select: none;
+}
+.input{
+    padding: 15px; 
+    margin: 20px;
+    border: solid 1px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+.words-comming{
+     margin: 20px;
+     padding: 15px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     border: solid 1px;
+     width: 100%;
+}
+.words-comming div{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #4C9BC8;
+    color: white;
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px;
+    border: solid 1px;
+    width: 100%;
+}
+.control span{
+    font-weight: bold;
+    color: green;
+}
+.finish .nice{
+    color: #4C9BC8;
+}
+.finish .Opss{
+    color: red;
+}
+.correct{
+    color: rgb(11, 180, 11);
+}
+.incorrect{
+    color: red;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.imgs{
+    width: 200px;
+    height: 120px;
+} 
+.img_left{
+    display: inline-block;
+    position: relative;
+}
+#img1{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    right: 5px;
+}
+#img2{
+    position: absolute;
+}
+#img3{
+    position: absolute;
+    left: 15px;
+    top: 30%;
+    width: 250px;
+}
+#img4{
+    width: 250px;
+    height: 150px;
+    margin-top: 45px;
+}
+#img5{
+    width: 250px;
+}
+.img_footer{
+    display: flex;
+    justify-content: space-between;
+}
